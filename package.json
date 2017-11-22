@@ -1,0 +1,39 @@
+{
+  "name": "avet-styled-jsx",
+  "version": "0.1.0",
+  "description": "styled jsx for avet",
+  "avetPlugin": {
+    "name": "styledJsx"
+  },
+  "files": ["config", "output"],
+  "keywords": ["avet", "avetPlugin", "avet-plugin", "styled-jsx"],
+  "dependencies": {
+    "deasync": "^0.1.11",
+    "lost": "^8.2.0",
+    "postcss": "^6.0.14",
+    "postcss-nested": "^2.1.2",
+    "styled-jsx": "^2.2.0"
+  },
+  "devDependencies": {
+    "avet-bin": "^1.0.0-0",
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.11.0",
+    "eslint-config-avet": "^0.3.9"
+  },
+  "tnpm": {
+    "mode": "npm"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avetjs/avet-styled-jsx"
+  },
+  "bugs": {
+    "url": "https://github.com/avetjs/avet/issues"
+  },
+  "homepage": "http://avetjs.github.io/avet/",
+  "author": "okoala <dapixp@gmail.com>",
+  "license": "MIT"
+}
