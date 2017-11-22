@@ -1,20 +1,12 @@
 {
   "name": "avet-styled-jsx",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "styled jsx for avet",
   "avetPlugin": {
     "name": "styledJsx"
   },
-  "files": [
-    "config",
-    "lib"
-  ],
-  "keywords": [
-    "avet",
-    "avetPlugin",
-    "avet-plugin",
-    "styled-jsx"
-  ],
+  "files": ["config", "lib"],
+  "keywords": ["avet", "avetPlugin", "avet-plugin", "styled-jsx"],
   "dependencies": {
     "avet-styled-jsx-plugin-postcss": "^0.1.0",
     "lost": "^8.2.0",
