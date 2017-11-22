@@ -1,8 +1,11 @@
-const { styledJsxOptions } = require('../lib/utils');
+const { styledJsxOptions, postcssOptions } = require('../lib/utils');
 
 exports.styledJsx = {
   postcss: {
-    plugins: [ require('lost')({}), require('postcss-nested')({}) ],
+    plugins: {
+      lost: require('lost')({}),
+      'postcss-nested': require('postcss-nested')({}),
+    },
   },
 };
 
@@ -12,7 +15,10 @@ exports.build = {
       require.resolve('styled-jsx/babel'),
       styledJsxOptions({
         plugins: [
-          [ require.resolve('../lib/processor'), config.styledJsx.postcss ],
+          [
+            'avet-styled-jsx-plugin-postcss',
+            postcssOptions(config.styledJsx.postcss),
+          ],
         ],
       }),
     ]);
