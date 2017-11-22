@@ -1,6 +1,6 @@
 {
   "name": "avet-styled-jsx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "styled jsx for avet",
   "avetPlugin": {
     "name": "styledJsx"
