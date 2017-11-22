@@ -3,8 +3,8 @@ const { styledJsxOptions, postcssOptions } = require('../lib/utils');
 exports.styledJsx = {
   postcss: {
     plugins: {
-      lost: require('lost')({}),
-      'postcss-nested': require('postcss-nested')({}),
+      lost: [ require('lost'), {}],
+      'postcss-nested': [ require('postcss-nested'), {}],
     },
   },
 };
@@ -17,7 +17,7 @@ exports.build = {
         plugins: [
           [
             'avet-styled-jsx-plugin-postcss',
-            postcssOptions(config.styledJsx.postcss),
+            postcssOptions(config.styledJsx.postcss, config),
           ],
         ],
       }),

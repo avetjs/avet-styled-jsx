@@ -5,8 +5,16 @@
   "avetPlugin": {
     "name": "styledJsx"
   },
-  "files": ["config", "lib"],
-  "keywords": ["avet", "avetPlugin", "avet-plugin", "styled-jsx"],
+  "files": [
+    "config",
+    "lib"
+  ],
+  "keywords": [
+    "avet",
+    "avetPlugin",
+    "avet-plugin",
+    "styled-jsx"
+  ],
   "dependencies": {
     "avet-styled-jsx-plugin-postcss": "^0.1.0",
     "lost": "^8.2.0",
