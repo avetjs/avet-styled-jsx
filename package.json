@@ -8,16 +8,16 @@
   "files": ["config", "lib"],
   "keywords": ["avet", "avetPlugin", "avet-plugin", "styled-jsx"],
   "dependencies": {
-    "avet-styled-jsx-plugin-postcss": "^0.1.0",
-    "lost": "^8.2.0",
-    "postcss-nested": "^2.1.2",
-    "styled-jsx": "^2.2.0"
+    "avet-styled-jsx-plugin-postcss": "0.1.1",
+    "lost": "8.2.0",
+    "postcss-nested": "2.1.2",
+    "styled-jsx": "2.2.1"
   },
   "devDependencies": {
-    "avet-bin": "^1.0.0-1",
-    "babel-eslint": "^8.0.2",
-    "eslint": "^4.11.0",
-    "eslint-config-avet": "^0.3.9"
+    "avet-bin": "1.0.0-22",
+    "babel-eslint": "8.1.2",
+    "eslint": "4.14.0",
+    "eslint-config-avet": "0.3.11"
   },
   "tnpm": {
     "mode": "npm"
