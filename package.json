@@ -10,7 +10,7 @@
   "dependencies": {
     "avet-styled-jsx-plugin-postcss": "0.1.1",
     "lost": "8.2.0",
-    "postcss-nested": "2.1.2",
+    "postcss-nested": "3.0.0",
     "styled-jsx": "2.2.1"
   },
   "devDependencies": {
